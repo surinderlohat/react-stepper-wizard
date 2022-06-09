@@ -1,12 +1,12 @@
 # React Stepper Wizard
 
-A simple higly customizable Wizard component for displaying pages in react app.
+A simple highly customizable Wizard component for displaying pages in react app.
 
 ##### Based on the React hooks and reactive programing.
 #### No extra dependencies pure react js code & lightweight.
 
 ## Features
-1. Easly handel user cases for wizard.
+1. Easily handel user cases for wizard.
 2. Provide highly customization to fit in all major User cases.
 3. Super Easy to use.
 4. Open source Free to use.
@@ -22,7 +22,6 @@ yarn add @surinderlohat/react-stepper-wizard
 ```sh
 import { StepperWizard } from '@surinderlohat/react-stepper-wizard';
 import { FC } from 'react';
-
 const BasicExample: FC = () => {
   return (
     <div style={{ width: 350 }}>
@@ -41,12 +40,9 @@ const BasicExample: FC = () => {
     </div>
   );
 };
-
 export default BasicExample;
-
 ```
 ## API Documentation
-
 ```
 {
   children?: ReactChild;
@@ -84,10 +80,10 @@ export default BasicExample;
    */
   renderCustomActions?: (state: any, props: any) => ReactNode;
   
-  /**Name of the back button*/
+  /**Name for back button*/
   previousButtonName?: string;
   
-  /**Name of next button*/
+  /**Name for next button*/
   nextButtonName?: string;
   
   /**Perform custom control for previous button click*/
@@ -116,6 +112,5 @@ export default BasicExample;
   };
 };
 ```
-
 ## License
 MIT **Free Software!**
